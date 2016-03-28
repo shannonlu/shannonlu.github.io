@@ -1,0 +1,28 @@
+    body {
+      font-family: "Tahoma",Tahoma,Arial,sans-serif;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #c0d3f7;
+      background-color: #333;
+    }
+    
+    .masthead-nav > .active > a, .masthead-nav > .active > a:hover, .masthead-nav > .active > a:focus {
+	  color: #c0d3f7;
+	  border-bottom-color: ##fff;
+	}
+
+	.masthead-nav > li > a {
+	  padding-right: 0;
+	  padding-left: 0;
+	  font-size: 16px;
+	  font-weight: bold;
+	  color: #fff;
+	  color: rgba(255,255,255,.75);
+	  border-bottom: 2px solid transparent;
+	}
+
+
+	.mastfoot {
+	  color: #999;
+	  color: #c0d3f7;
+	}
