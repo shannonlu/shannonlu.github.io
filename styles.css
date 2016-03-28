@@ -139,6 +139,10 @@ body {
   color: rgba(255,255,255,.5);
 }
 
+.social-media > li {
+  display: inline-block;
+}
+
 
 /*
  * Affix and center
