@@ -6,14 +6,14 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #737373;
 }
 
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
+  color: #737373;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #a9a9a9;
   border: 1px solid #a9a9a9;
@@ -31,13 +31,11 @@ body {
   font-family: "Franklin Gothic",Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: normal;
-  color: #c0d3f7;
+  color: #737373;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
-}
-
-.lead {
-  font-size: 16px;
+  /*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
+  text-shadow: none;
+  background-color: #fff;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -46,8 +44,8 @@ body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  /*-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -60,14 +58,14 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 40px;
 }
 
 
 /*
  * Header
  */
- 
+
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -84,22 +82,32 @@ body {
   padding-left: 0;
   font-size: 18px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
+  color: #8eb1f0; /* IE8 proofing */
+  color: rgba(142, 177, 240);
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
+  border-bottom-color: #737373;
+  border-bottom-color: rgba(115,115,115);
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #c0d3f7;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
+  color: #8eb1f0;
+  border-bottom-color: #737373;
+  border-bottom-color: rgba(115,115,115);
+}
+
+.dropdown-toggle {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #8eb1f0; /* IE8 proofing */
+  color: rgba(142, 177, 240);
+  border-bottom: 2px solid transparent;
 }
 
 @media (min-width: 768px) {
@@ -119,9 +127,23 @@ body {
 .cover {
   padding: 0 20px;
 }
+
+.cover .cover-heading {
+  text-align: left;
+}
+
+.lead{
+  text-align: left;
+  font-size: 16px;
+}
+
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
+}
+
+.resume-body {
+  text-align: left;
 }
 
 

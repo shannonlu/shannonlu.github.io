@@ -123,10 +123,11 @@ body {
 .cover {
   padding: 0 20px;
 }
-.cover .btn-lg {
+.cover .btn-md {
   padding: 10px 20px;
   font-weight: bold;
 }
+
 
 
 /*
@@ -141,6 +142,14 @@ body {
 
 .social-media > li {
   display: inline-block;
+}
+
+.btn-link {
+  color:#fff;
+}
+
+.btn-link > button > a:hover{
+  color: #c0d3f7;
 }
 
 
